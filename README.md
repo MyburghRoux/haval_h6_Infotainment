@@ -71,18 +71,18 @@ adb shell getprop
 adb shell setprop <key> <value>
 
 
-###🔓 Potential Modifications
+🔓 Potential Modifications
 Enable hidden UI toggles
 Unlock disabled vehicle features
 Force-enable ADAS configs
 Customize UI behavior
 Inject custom apps (if root achieved)
-###🚧 Current Limitations
+🚧 Current Limitations
 No root access (yet)
 Read-only vendor properties
 Locked bootloader
 Limited USB modes
-###🛠️ Future Work
+🛠️ Future Work
 Root exploit research
 Custom launcher installation
 CAN bus message injection
