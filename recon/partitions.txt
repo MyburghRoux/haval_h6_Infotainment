@@ -1,0 +1,21 @@
+major minor  #blocks  name
+
+   1        0       8192 ram0
+ 254        0     524288 vda
+ 254       16   13018607 vdb
+ 254       32    3670016 vdc
+ 254       48    3145728 vdd
+ 254       64        512 vde
+ 254       80     843776 vdf
+ 254       96   20971520 vdg
+ 254      112        512 vdh
+ 254      128     131072 vdi
+ 254      144       4096 vdj
+ 254      160   14155776 vdk
+ 253        0    3641048 dm-0
+ 253        1     520088 dm-1
+===BLKDEV===
+total 0
+drwxr-xr-x 2 root root  60 2026-09-09 00:24 .
+drwxr-xr-x 5 root root 540 2026-09-09 00:24 ..
+lrwxrwxrwx 1 root root  14 2026-09-09 00:24 vendor -> /dev/block/vda

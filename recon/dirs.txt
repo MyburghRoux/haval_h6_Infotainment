@@ -1,0 +1,96 @@
+total 2148
+drwxr-xr-x  21 root   root      4096 2021-05-26 13:41 .
+drwxr-xr-x  21 root   root      4096 2021-05-26 13:41 ..
+dr-xr-xr-x  42 root   root         0 2026-09-09 00:24 acct
+drwx------   4 system log       4096 2026-09-09 01:08 aptivlog
+drwxrwxr-x   3 u0_a0  u0_a0     4096 2021-03-22 16:22 autonavi
+lrw-r--r--   1 root   root        11 2021-05-26 13:41 bin -> /system/bin
+lrw-r--r--   1 root   root        50 2021-05-26 13:41 bugreports -> /data/user_de/0/com.android.shell/files/bugreports
+lrw-r--r--   1 root   root        11 2021-05-26 13:41 cache -> /data/cache
+lrw-r--r--   1 root   root        13 2021-05-26 13:41 charger -> /sbin/charger
+drwxr-xr-x   4 root   root         0 1970-01-01 02:00 config
+lrw-r--r--   1 root   root        17 2021-05-26 13:41 d -> /sys/kernel/debug
+drwxrwx--x  40 system system    4096 2025-12-10 15:34 data
+lrw-------   1 root   root        23 2021-05-26 13:41 default.prop -> system/etc/prop.default
+drwxr-xr-x  17 root   root      1820 2026-09-09 00:24 dev
+lrw-r--r--   1 root   root        11 2021-05-26 13:41 etc -> /system/etc
+-rwxr-x---   1 root   shell  2079312 2021-05-26 13:08 init
+-rwxr-x---   1 root   shell     1143 2021-05-26 12:51 init.environ.rc
+-rwxr-x---   1 root   shell    32464 2021-05-26 12:51 init.rc
+-rwxr-x---   1 root   shell     1817 2021-05-26 12:51 init.recovery.gwmv3.rc
+-rwxr-x---   1 root   shell    14892 2021-05-26 12:51 init.usb.configfs.rc
+-rwxr-x---   1 root   shell     5646 2021-05-26 12:51 init.usb.rc
+-rwxr-x---   1 root   shell      521 2021-05-26 12:51 init.zygote32.rc
+-rwxr-x---   1 root   shell      925 2021-05-26 12:51 init.zygote64_32.rc
+drwx------   2 root   root     16384 2021-05-26 13:41 lost+found
+drwxr-xr-x  12 root   system     260 2026-09-09 00:24 mnt
+drwxr-xr-x   2 root   root      4096 2021-05-26 12:51 odm
+drwxr-xr-x   2 root   root      4096 2021-05-26 12:51 oem
+drwxr-xr-x   2 root   root      4096 2021-05-26 12:51 postinstall
+dr-xr-xr-x 258 root   root         0 1970-01-01 02:00 proc
+drwxr-xr-x   2 root   root      4096 2021-05-26 12:51 product
+drwxr-x---   2 root   shell     4096 2021-05-26 13:08 sbin
+lrw-r--r--   1 root   root        21 2021-05-26 13:41 sdcard -> /storage/self/primary
+drwxr-xr-x   4 root   root        80 2026-09-09 00:25 storage
+dr-xr-xr-x  13 root   root         0 2026-09-09 00:24 sys
+drwxr-xr-x  17 root   root      4096 2021-05-26 13:41 system
+drwxrwxr-x   3 u0_a1  u0_a1     4096 2021-03-22 15:42 tencent
+-rw-r--r--   1 root   root      5272 2021-05-26 12:51 ueventd.rc
+drwxr-xr-x   9 root   root      4096 2021-05-26 13:04 vendor
+===DATA===
+total 209
+drwxrwx--x 40 system   system    4096 2025-12-10 15:34 .
+drwxr-xr-x 21 root     root      4096 2021-05-26 13:41 ..
+-rw-------  1 root     root         2 2025-12-10 15:34 .layout_version
+drwx------  2 root     root      4096 2025-12-10 15:34 adb
+drwxrwxr-x  2 system   system    4096 2025-12-10 15:34 anr
+drwxrwx--x  9 system   system    4096 2026-09-09 01:15 app
+drwx------  2 root     root      4096 2025-12-10 15:34 app-asec
+drwxrwx--x  2 system   system    4096 2025-12-10 15:34 app-ephemeral
+drwxrwx--x  2 system   system    4096 2025-12-10 15:34 app-lib
+drwxrwx--x  2 system   system    4096 2025-12-10 15:34 app-private
+drwxrwxr-x  4 system   system    4096 2025-12-10 15:34 aptiv
+drwx------  4 system   system    4096 2026-09-09 01:15 backup
+drwxr-xr-x  2 shell    shell     4096 2025-12-10 15:34 bootchart
+drwxrwx---  6 system   cache     4096 2025-12-11 13:22 cache
+drwx------  2 system   log       4096 2026-09-09 00:08 carlog
+drwxrwx---  3 system   system    4096 2025-12-10 15:34 cert
+drwxrwx--x  4 root     root      4096 2025-12-10 15:34 dalvik-cache
+drwxrwx--x 84 system   system    4096 2026-09-09 01:15 data
+drwxrwx---  2 drm      drm       4096 2025-12-10 15:34 drm
+drwxr-x--x  4 root     root      4096 2025-12-10 15:34 local
+drwxrwx---  2 root     root     16384 2018-08-15 09:09 lost+found
+drwxrwx---  5 media_rw media_rw  4096 2025-12-10 15:34 media
+drwxrwx---  2 mediadrm mediadrm  4096 2025-12-10 15:34 mediadrm
+drwxrwx--t 42 system   misc      4096 2025-12-10 15:34 misc
+drwxrwx--t  3 system   misc      4096 2025-12-10 15:34 misc_ce
+drwxrwx--t  3 system   misc      4096 2025-12-10 15:34 misc_de
+drwxrwx---  3 nfc      nfc       4096 2025-12-10 15:34 nfc
+drwxrwxrwx  5 root     root     32768 1970-01-01 02:00 ota_package
+drwxrwxrwx  3 root     root      1024 1970-01-01 02:00 ota_transfer
+drwx------  2 root     root      4096 2026-09-09 00:25 property
+drwxrwx--x  2 system   system    4096 2025-12-10 15:34 resource-cache
+drwx------  2 system   system    4096 2025-12-10 15:34 ss
+drwxrwxr-x 20 system   system    4096 2026-09-09 01:24 system
+drwxrwx---  3 system   system    4096 2025-12-10 15:34 system_ce
+drwxrwx---  3 system   system    4096 2025-12-10 15:34 system_de
+drwxrwx--x  2 system   system    4096 2026-07-31 18:26 tombstones
+drwx--x--x  2 system   system    4096 2025-12-10 15:34 user
+drwx--x--x  3 system   system    4096 2025-12-10 15:34 user_de
+drwxrwx--x  7 root     root      4096 2025-12-11 13:22 vendor
+drwxrwx--x  3 root     root      4096 2025-12-10 15:34 vendor_ce
+drwxrwx--x  3 root     root      4096 2025-12-10 15:34 vendor_de
+===VENDOR===
+total 112
+drwxr-xr-x  9 root root   4096 2021-05-26 13:04 .
+drwxr-xr-x 21 root root   4096 2021-05-26 13:41 ..
+drwxr-xr-x  3 root shell  4096 2021-05-26 12:54 aptiv
+drwxr-xr-x  3 root shell  4096 2021-05-26 13:06 bin
+-rw-------  1 root root   2096 2021-05-26 12:51 build.prop
+-rw-------  1 root root    239 2021-05-26 12:51 default.prop
+drwxr-xr-x 12 root shell  4096 2021-05-26 13:41 etc
+drwxr-xr-x  8 root shell  4096 2021-05-26 13:42 lib
+drwxr-xr-x  8 root shell  4096 2021-05-26 13:10 lib64
+drwx------  2 root root  16384 2021-05-26 13:42 lost+found
+-rw-r--r--  1 root root   8955 2021-05-26 12:51 ueventd.rc
+drwxr-xr-x  4 root shell  4096 2021-05-26 12:51 usr

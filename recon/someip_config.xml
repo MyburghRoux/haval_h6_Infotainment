@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<ipaddress>0.0.0.0</ipaddress>
+	<client_port_range>55001 65535</client_port_range>
+	<services>
+		<service>
+			<sid>0x0301</sid>
+			<iid>0x01</iid>
+			<udp>32001</udp>
+			<tcp>30001 false</tcp> <!--true: Enable magic cookie-->
+			<evgroups>
+				<evgroup>
+					<id>0x0001</id>
+					<mcast>225.225.225.100 1024</mcast>
+					<!--Timeout in ms to send event/notification; cyclic=0 means send when data change only-->
+					<!-- <cyclic>1000</cyclic> -->
+					<!--Delay time in milisecond to send first event to a subscriber-->
+					<initial_event_delay>2</initial_event_delay> 
+				</evgroup>
+				<evgroup>
+					<id>0x0002</id>
+					<mcast>225.225.225.100 1025</mcast>
+					<!--Timeout in ms to send event/notification; cyclic=0 means send when data change only-->
+					<!-- <cyclic>1000</cyclic> -->
+					<!--Delay time in milisecond to send first event to a subscriber-->
+					<initial_event_delay>2</initial_event_delay> 
+				</evgroup>
+			</evgroups>
+		</service>
+		<service>
+			<sid>0x0201</sid>
+			<iid>0x01</iid>
+			<udp>32011</udp>
+			<tcp>30001 false</tcp> <!--true: Enable magic cookie-->
+			<evgroups>
+				<evgroup>
+					<id>0x0001</id>
+					<mcast>225.225.225.101 1024</mcast>
+					<!--Timeout in ms to send event/notification; cyclic=0 means send when data change only-->
+					<!-- <cyclic>1000</cyclic> -->
+					<!--Delay time in milisecond to send first event to a subscriber-->
+					<initial_event_delay>2</initial_event_delay> 
+				</evgroup>
+			</evgroups>
+		</service>
+		<service>
+			<sid>0x0202</sid>
+			<iid>0x01</iid>
+			<udp>32012</udp>
+			<tcp>30001 false</tcp> <!--true: Enable magic cookie-->
+			<evgroups>
+				<evgroup>
+					<id>0x0001</id>
+					<mcast>225.225.225.102 1024</mcast>
+					<!--Timeout in ms to send event/notification; cyclic=0 means send when data change only-->
+					<!-- <cyclic>1000</cyclic> -->
+					<!--Delay time in milisecond to send first event to a subscriber-->
+					<initial_event_delay>2</initial_event_delay> 
+				</evgroup>
+			</evgroups>
+		</service>
+		<service>
+			<sid>0x0204</sid>
+			<iid>0x01</iid>
+			<udp>32002</udp>
+			<tcp>30001 false</tcp> <!--true: Enable magic cookie-->
+			<evgroups>
+				<evgroup>
+					<id>0x0001</id>
+					<mcast>225.225.225.103 1024</mcast>
+					<!--Timeout in ms to send event/notification; cyclic=0 means send when data change only-->
+					<!-- <cyclic>1000</cyclic> -->
+					<!--Delay time in milisecond to send first event to a subscriber-->
+					<initial_event_delay>2</initial_event_delay> 
+				</evgroup>
+			</evgroups>
+		</service>
+		<service>
+			<sid>0x0205</sid>
+			<iid>0x01</iid>
+			<udp>32003</udp>
+			<tcp>30001 false</tcp> <!--true: Enable magic cookie-->
+			<evgroups>
+				<evgroup>
+					<id>0x0001</id>
+					<mcast>225.225.225.104 1024</mcast>
+					<!--Timeout in ms to send event/notification; cyclic=0 means send when data change only-->
+					<!-- <cyclic>1000</cyclic> -->
+					<!--Delay time in milisecond to send first event to a subscriber-->
+					<initial_event_delay>2</initial_event_delay> 
+				</evgroup>
+				<evgroup>
+					<id>0x0002</id>
+					<mcast>225.225.225.104 1025</mcast>
+					<!--Timeout in ms to send event/notification; cyclic=0 means send when data change only-->
+					<!-- <cyclic>1000</cyclic> -->
+					<!--Delay time in milisecond to send first event to a subscriber-->
+					<initial_event_delay>2</initial_event_delay> 
+				</evgroup>
+			</evgroups>
+		</service>
+		<service>
+			<sid>0x0203</sid>
+			<iid>0x01</iid>
+			<udp>32004</udp>
+			<tcp>30001 false</tcp> <!--true: Enable magic cookie-->
+			<evgroups>
+				<evgroup>
+					<id>0x0001</id>
+					<mcast>225.225.225.105 1024</mcast>
+					<!--Timeout in ms to send event/notification; cyclic=0 means send when data change only-->
+					<!-- <cyclic>1000</cyclic> -->
+					<!--Delay time in milisecond to send first event to a subscriber-->
+					<initial_event_delay>2</initial_event_delay> 
+				</evgroup>
+				<evgroup>
+					<id>0x0002</id>
+					<mcast>225.225.225.105 1025</mcast>
+					<!--Timeout in ms to send event/notification; cyclic=0 means send when data change only-->
+					<!-- <cyclic>1000</cyclic> -->
+					<!--Delay time in milisecond to send first event to a subscriber-->
+					<initial_event_delay>2</initial_event_delay> 
+				</evgroup>
+			</evgroups>
+		</service>
+		<service>
+			<sid>0x0401</sid>
+			<iid>0x01</iid>
+			<udp>32005</udp>
+			<tcp>30001 false</tcp> <!--true: Enable magic cookie-->
+			<evgroups>
+				<evgroup>
+					<id>0x0001</id>
+					<mcast>225.225.225.106 1024</mcast>
+					<!--Timeout in ms to send event/notification; cyclic=0 means send when data change only-->
+					<!-- <cyclic>1000</cyclic> -->
+					<!--Delay time in milisecond to send first event to a subscriber-->
+					<initial_event_delay>2</initial_event_delay> 
+				</evgroup>
+				<evgroup>
+					<id>0x0002</id>
+					<mcast>225.225.225.106 1025</mcast>
+					<!--Timeout in ms to send event/notification; cyclic=0 means send when data change only-->
+					<!-- <cyclic>1000</cyclic> -->
+					<!--Delay time in milisecond to send first event to a subscriber-->
+					<initial_event_delay>2</initial_event_delay> 
+				</evgroup>
+			</evgroups>
+		</service>
+		<service>
+			<sid>0x0402</sid>
+			<iid>0x01</iid>
+			<udp>32006</udp>
+			<tcp>30001 false</tcp> <!--true: Enable magic cookie-->
+			<evgroups>
+			</evgroups>
+		</service>
+		<service>
+			<sid>0x0403</sid>
+			<iid>0x01</iid>
+			<udp>32007</udp>
+			<tcp>30001 false</tcp> <!--true: Enable magic cookie-->
+			<evgroups>
+			</evgroups>
+		</service>
+	</services>
+
+	<!--Time value below almost in milisecond unless ttl in second-->
+	<service_discovery>
+                <!--Delay in client side for sending subscribe so that TCP can complete connection establishment-->
+		<subscribe_delay>30</subscribe_delay> 
+		<!--Ability to receive a SD ucast message-->
+		<receive_ucast>true</receive_ucast> 
+		<!--ucast-->
+		<explicit_init_data>true</explicit_init_data>
+		<!--Limitation of ucast per event group can receive event/notifier on-->
+		<ucast_limit>2</ucast_limit> 
+		<mcast>239.192.255.251</mcast>
+		<port>30490</port>
+		<sd_endpoint_enable>false</sd_endpoint_enable>
+		<initial_delay_min>0</initial_delay_min>
+		<initial_delay_max>100</initial_delay_max>
+		<repetitions_base_delay>30</repetitions_base_delay>
+		<repetitions_max>3</repetitions_max>
+		<!--ttl in value of second-->
+		<ttl>3</ttl>
+		<cyclic_offer_delay>1000</cyclic_offer_delay>
+		<request_response_delay_min>10</request_response_delay_min>
+		<request_response_delay_max>20</request_response_delay_max>
+	</service_discovery>
+</configuration>
+

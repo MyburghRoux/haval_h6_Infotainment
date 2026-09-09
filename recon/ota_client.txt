@@ -1,0 +1,19 @@
+/data/aptiv/kernel/:
+total 8
+drwxrwx--- 2 system system 4096 2025-12-10 15:34 .
+drwxrwxr-x 4 system system 4096 2025-12-10 15:34 ..
+
+/data/aptiv/mymount/:
+total 8
+drwxrwx--- 2 system system 4096 2025-12-10 15:34 .
+drwxrwxr-x 4 system system 4096 2025-12-10 15:34 ..
+===OTA CLIENT===
+total 36
+drwx------  8 system system 4096 2025-12-29 20:01 .
+drwxrwx--x 84 system system 4096 2026-09-09 01:15 ..
+drwxrws--x  2 system system 4096 2025-12-10 15:34 cache
+drwxrws--x  2 system system 4096 2025-12-10 15:34 code_cache
+drwx------  2 system system 4096 2026-07-26 16:57 files
+drwx------  3 system system 4096 2025-12-29 20:01 log_store
+drwx------  2 system system 4096 2025-12-29 20:01 log_upload
+drwxrwx--x  2 system system 4096 2025-12-29 20:01 shared_prefs

@@ -1,0 +1,47 @@
+total 1636
+drwxrwxr-x 20 system system       u:object_r:system_data_file:s0       4096 2026-09-09 01:25 .
+drwxrwx--x 40 system system       u:object_r:system_data_file:s0       4096 2025-12-10 15:34 ..
+-rw-------  1 system system       u:object_r:system_data_file:s0      14724 2026-09-09 01:06 appops.xml
+drwx------  2 system system       u:object_r:system_data_file:s0       4096 2025-12-10 15:34 battery-saver
+-rw-------  1 system system       u:object_r:system_data_file:s0        944 2026-04-13 01:43 batterystats-daily.xml
+-rw-------  1 system system       u:object_r:system_data_file:s0      53376 2026-09-09 01:24 batterystats.bin
+-rw-------  1 system system       u:object_r:system_data_file:s0        142 2026-09-09 00:25 cachequota.xml
+drwx------  2 system system       u:object_r:system_data_file:s0       4096 2025-12-10 15:34 car
+-rw-------  1 system system       u:object_r:system_data_file:s0        326 2026-04-17 16:29 device_policies.xml
+-rw-------  1 system system       u:object_r:system_data_file:s0        368 2025-12-10 15:34 display-manager-state.xml
+drwx------  2 system system       u:object_r:system_data_file:s0      81920 2026-09-09 01:19 dropbox
+-rw-------  1 system system       u:object_r:system_data_file:s0        512 2026-09-09 00:25 entropy.dat
+drwx------  9 system system       u:object_r:system_data_file:s0       4096 2026-09-09 00:46 graphicsstats
+drwx------  2 system system       u:object_r:heapdump_data_file:s0     4096 2025-12-10 15:34 heapdump
+drwx------  2 system system       u:object_r:system_data_file:s0       4096 2025-12-10 15:34 ifw
+drwx------  2 system system       u:object_r:system_data_file:s0       4096 2025-12-10 15:34 inputmethod
+drwx------  2 system system       u:object_r:system_data_file:s0       4096 2025-12-10 15:34 install_sessions
+-rw-------  1 system system       u:object_r:system_data_file:s0         70 2026-09-09 01:15 install_sessions.xml
+drwx------  2 system system       u:object_r:system_data_file:s0       4096 2025-12-10 15:34 job
+-rw-------  1 system system       u:object_r:system_data_file:s0          0 2026-09-08 23:56 last-fstrim
+-rw-------  1 system system       u:object_r:system_data_file:s0        395 2026-09-09 00:25 last-header.txt
+-rw-rw----  1 system system       u:object_r:system_data_file:s0      20480 2025-12-11 13:22 locksettings.db
+-rw-------  1 system system       u:object_r:system_data_file:s0        895 2026-09-09 00:25 log-files.xml
+srwxrwxrwx  1 system system       u:object_r:system_ndebug_socket:s0      0 2026-09-09 00:25 ndebugsocket
+-rw-------  1 system system       u:object_r:system_data_file:s0        178 2026-09-09 00:25 netpolicy.xml
+drwx------  2 system system       u:object_r:system_data_file:s0       4096 2026-09-09 01:33 netstats
+-rw-rw----  1 system system       u:object_r:system_data_file:s0      32768 2026-09-09 00:07 notification_log.db
+-rw-------  1 system system       u:object_r:system_data_file:s0      32768 2026-09-09 01:15 notification_log.db-shm
+-rw-------  1 system system       u:object_r:system_data_file:s0     436752 2026-09-09 01:15 notification_log.db-wal
+-rw-------  1 system system       u:object_r:system_data_file:s0       9009 2026-09-09 01:15 notification_policy.xml
+-rw-------  1 system system       u:object_r:system_data_file:s0         82 2026-09-09 00:25 overlays.xml
+-rw-------  1 system system       u:object_r:system_data_file:s0        216 2026-09-09 00:00 package-cstats.list
+-rw-------  1 system system       u:object_r:system_data_file:s0       1073 2026-09-09 00:00 package-dex-usage.list
+-rw-r-----  1 system package_info u:object_r:system_data_file:s0       3599 2026-09-09 00:00 package-usage.list
+drwx------  3 system system       u:object_r:system_data_file:s0       4096 2025-12-10 15:34 package_cache
+-rw-------  1 system system       u:object_r:system_data_file:s0         70 2026-04-12 23:12 packages-warnings.xml
+-rw-r-----  1 system package_info u:object_r:system_data_file:s0      10356 2026-09-09 01:15 packages.list
+-rw-rw----  1 system system       u:object_r:system_data_file:s0     770240 2026-09-09 01:15 packages.xml
+drwx------  2 system system       u:object_r:system_data_file:s0       4096 2026-09-09 01:27 procstats
+===SETTINGS DB===
+total 20
+drwxrwxr-x  3 system system 4096 2026-09-09 00:25 .
+drwxrwxr-x 20 system system 4096 2026-09-09 01:25 ..
+drwx------  3 system system 4096 2026-09-09 01:33 0
+-rw-------  1 system system  355 2026-09-09 00:25 0.xml
+-rw-------  1 system system  335 2025-12-10 15:34 userlist.xml

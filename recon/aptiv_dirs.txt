@@ -1,0 +1,65 @@
+total 24
+drwxr-xr-x  3 root shell 4096 2021-05-26 12:51 .
+drwxr-xr-x 12 root shell 4096 2021-05-26 13:41 ..
+drwxr-xr-x  2 root shell 4096 2021-05-26 12:51 iap
+===APTIV BIN===
+SensorsExtTest
+UpperTester
+acpi
+awk
+base64
+basename
+blockdev
+cal
+cat
+chcon
+chgrp
+chmod
+chown
+chroot
+chrt
+cksum
+clear
+cmp
+comm
+cp
+cpio
+cut
+date
+dd
+df
+diff
+dirname
+dmesg
+dos2unix
+du
+echo
+egrep
+env
+expand
+expr
+fallocate
+false
+fgrep
+file
+find
+flock
+fmt
+free
+getenforce
+getevent
+getprop
+grep
+groups
+gunzip
+gzip
+head
+hostapd_cli
+hostname
+hw
+hwclock
+hyper_ca_legacy
+id
+ifconfig
+inotifyd
+insmod

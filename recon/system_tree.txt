@@ -1,0 +1,212 @@
+total 192
+drwxr-xr-x 17 root root   4096 2021-05-26 13:41 .
+drwxr-xr-x 21 root root   4096 2021-05-26 13:41 ..
+drwxr-xr-x 21 root root   4096 2021-05-26 13:19 app
+drwxr-xr-x  3 root root   4096 2021-05-26 12:54 aptiv
+drwxr-xr-x  3 root shell  8192 2021-05-26 13:20 bin
+drwxr-xr-x  3 root root   4096 2021-05-26 12:50 btnr
+-rw-------  1 root root   2077 2021-05-26 12:51 build.prop
+-rw-r--r--  1 root root  89155 2021-05-26 12:55 compatibility_matrix.xml
+drwxr-xr-x 17 root root   4096 2021-05-26 13:41 etc
+drwxr-xr-x  2 root root   4096 2021-05-26 13:03 fake-libs
+drwxr-xr-x  2 root root   4096 2021-05-26 13:03 fake-libs64
+drwxr-xr-x  2 root root  12288 2021-05-26 12:51 fonts
+drwxr-xr-x  5 root root   4096 2021-05-26 13:20 framework
+drwxr-xr-x  5 root root  12288 2021-05-26 13:20 lib
+drwxr-xr-x  6 root root  16384 2021-05-26 13:20 lib64
+drwxr-xr-x  3 root root   4096 2021-05-26 12:51 media
+drwxr-xr-x 57 root root   4096 2021-05-26 13:16 priv-app
+lrw-r--r--  1 root root      8 2021-05-26 13:41 product -> /product
+drwxr-xr-x  8 root root   4096 2021-05-26 12:51 usr
+lrw-r--r--  1 root root      7 2021-05-26 13:41 vendor -> /vendor
+drwxr-xr-x  2 root shell  4096 2021-05-26 13:19 xbin
+===APP===
+AndroidAuto
+AudioRecognition
+BeanDataTrackService
+CertInstaller
+CompanionDeviceManager
+CtsShimPrebuilt
+ExtShared
+HTMLViewer
+KeyChain
+RadioServiceOversea
+SecureElement
+WallpaperBackup
+hanvon
+tboxservice
+theme0201
+theme0301
+theme0302
+theme0401
+webview
+===PRIV-APP===
+AptivBeanService
+AptivBluetooth
+AptivCameraService
+AptivCarService
+AptivCommonService
+AptivInputService
+AptivJavaEthernetService
+AptivMediatorService
+AptivMultiDisplay
+AptivSettingService
+AptivThemeManager
+AptivWifiService
+BackupRestoreConfirmation
+CarPlay
+CarService
+ContactsProvider
+CtsShimPrivPrebuilt
+DefaultContainerService
+DiagnosticService
+DownloadProvider
+DownloadProviderUi
+ExtServices
+ExternalStorageProvider
+FusedLocation
+GwmBluetooth
+GwmDlna
+GwmDvr
+GwmEngineerMode
+GwmLauncher
+GwmMedia
+GwmPhoto
+GwmRadio
+GwmSetting
+GwmSystemUI
+GwmVehicle
+InputDevices
+ManagedProvisioning
+MediaProvider
+MediaService
+MmsService
+OTAClient
+OTAUsbDetecter
+PackageInstaller
+PhoneProjectionService
+Settings
+SettingsIntelligence
+SettingsProvider
+Shell
+StatementService
+StorageManager
+Telecom
+TelephonyProvider
+ThirdMediaPartyService
+VpnDialogs
+cloudlog
+===FRAMEWORK===
+am.jar
+android.car.jar
+android.hidl.base-V1.0-java.jar
+android.hidl.manager-V1.0-java.jar
+android.test.base.jar
+android.test.mock.jar
+android.test.runner.jar
+apache-xml.jar
+appwidget.jar
+aptiv.core.jar
+aptiv.support.car.jar
+aptivshare.jar
+arm
+arm64
+bmgr.jar
+boot-android.car.vdex
+boot-android.hidl.base-V1.0-java.vdex
+boot-android.hidl.manager-V1.0-java.vdex
+boot-android.test.base.vdex
+boot-apache-xml.vdex
+boot-bouncycastle.vdex
+boot-conscrypt.vdex
+boot-core-libart.vdex
+boot-ext.vdex
+boot-framework-oahl-backward-compatibility.vdex
+boot-framework.vdex
+boot-ims-common.vdex
+boot-okhttp.vdex
+boot-telephony-common.vdex
+boot-voip-common.vdex
+boot.vdex
+bouncycastle.jar
+bu.jar
+car-frameworks-service.jar
+com.android.future.usb.accessory.jar
+com.android.location.provider.jar
+com.android.media.remotedisplay.jar
+com.android.mediadrm.signer.jar
+conscrypt.jar
+content.jar
+core-libart.jar
+core-oj.jar
+dpm.jar
+ethernet-service.jar
+ext.jar
+framework-oahl-backward-compatibility.jar
+framework-res.apk
+framework.jar
+hid.jar
+ims-common.jar
+input.jar
+javax.obex.jar
+locksettings.jar
+media_cmd.jar
+monkey.jar
+oat
+okhttp.jar
+org.apache.http.legacy.boot.jar
+org.apache.http.legacy.boot.jar.prof
+requestsync.jar
+services.jar
+services.jar.prof
+sm.jar
+svc.jar
+telecom.jar
+telephony-common.jar
+uiautomator.jar
+vendor.aptiv.hardware.iap-V1.0-java.jar
+vendor.aptiv.hardware.iap-V1.1-java.jar
+voip-common.jar
+wifi-service.jar
+wifi-service.jar.prof
+===ETC===
+NOTICE.xml.gz
+automotive
+bluetooth
+boot-image.prof
+bpf
+clatd.conf
+datatrackconfig.json
+dirty-image-objects
+ethernet
+event-log-tags
+fonts.xml
+fs_config_dirs
+fs_config_files
+gptp2.conf
+hosts
+init
+ld.config.28.txt
+llndk.libraries.28.txt
+media_profiles_V1_0.dtd
+mke2fs.conf
+mkshrc
+permissions
+ppp
+preloaded-classes
+prop.default
+public.libraries.txt
+seccomp_policy
+security
+selinux
+sepolicy_freeze_test
+sepolicy_tests
+someip
+sysconfig
+textclassifier
+treble_sepolicy_tests_26.0
+treble_sepolicy_tests_27.0
+update_engine
+vintf
+vndksp.libraries.28.txt
+xtables.lock

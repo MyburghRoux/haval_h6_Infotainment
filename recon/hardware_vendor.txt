@@ -1,0 +1,203 @@
+/vendor/etc/aptiv/iap/:
+total 80
+drwxr-xr-x 2 root shell 4096 2021-05-26 12:51 .
+drwxr-xr-x 3 root shell 4096 2021-05-26 12:51 ..
+-rw-r--r-- 1 root root  1192 2021-05-26 12:51 iap2_cp_bt.cfg
+-rw-r--r-- 1 root root  4316 2021-05-26 12:51 iap2_cp_oob_usb.cfg
+-rw-r--r-- 1 root root  4163 2021-05-26 12:51 iap2_cp_usb.cfg
+-rw-r--r-- 1 root root  2554 2021-05-26 12:51 iap2_dm.cfg
+-rw-r--r-- 1 root root  2874 2021-05-26 12:51 iap2_ea_and_hm.cfg
+-rw-r--r-- 1 root root   973 2021-05-26 12:51 iap2_oob.cfg
+-rw-r--r-- 1 root root  3968 2021-05-26 12:51 iap2_wcp.cfg
+
+/vendor/etc/sensors/:
+total 24
+drwxr-xr-x  2 root shell 4096 2021-05-26 12:51 .
+drwxr-xr-x 12 root shell 4096 2021-05-26 13:41 ..
+-rw-r--r--  1 root root    38 2021-05-26 12:51 hals.conf
+===VENDOR BIN FULL===
+SensorsExtTest
+UpperTester
+acpi
+awk
+base64
+basename
+blockdev
+cal
+cat
+chcon
+chgrp
+chmod
+chown
+chroot
+chrt
+cksum
+clear
+cmp
+comm
+cp
+cpio
+cut
+date
+dd
+df
+diff
+dirname
+dmesg
+dos2unix
+du
+echo
+egrep
+env
+expand
+expr
+fallocate
+false
+fgrep
+file
+find
+flock
+fmt
+free
+getenforce
+getevent
+getprop
+grep
+groups
+gunzip
+gzip
+head
+hostapd_cli
+hostname
+hw
+hwclock
+hyper_ca_legacy
+id
+ifconfig
+inotifyd
+insmod
+ionice
+iorenice
+irqbalance
+kill
+killall
+ln
+load_policy
+log
+logname
+logwrapper
+losetup
+ls
+lsmod
+lsof
+lspci
+lsusb
+md5sum
+memtool
+microcom
+mkdir
+mkfifo
+mknod
+mkswap
+mktemp
+modinfo
+modprobe
+more
+mount
+mountpoint
+mv
+netstat
+newfs_msdos
+nice
+nl
+nohup
+od
+paste
+patch
+pgrep
+pidof
+pkill
+pmap
+printenv
+printf
+ps
+pvrsrvctl
+pwd
+qos_tp
+ramoops_logger
+readlink
+realpath
+renice
+restorecon
+rm
+rmdir
+rmmod
+rscompiler
+runcon
+sed
+sendevent
+seq
+setenforce
+setprop
+setsid
+sh
+sha1sum
+sha224sum
+sha256sum
+sha384sum
+sha512sum
+sleep
+sort
+split
+start
+stat
+stop
+strings
+stty
+swapoff
+swapon
+sync
+sysctl
+tac
+tail
+tar
+taskset
+tee
+tee-supp
+time
+timeout
+toolbox
+top
+touch
+toybox_vendor
+tr
+true
+truncate
+tty
+ulimit
+umount
+uname
+uniq
+unix2dos
+unpack_ipl_legacy
+uptime
+usleep
+uudecode
+uuencode
+vmstat
+vndservice
+vndservicemanager
+wc
+which
+whoami
+wpa_cli
+xargs
+xxd
+yes
+zcat
+===SOMEIP ETS===
+total 1596
+drwxr-xr-x 2 root root    4096 2021-05-26 12:51 .
+drwxr-xr-x 3 root root    4096 2021-05-26 12:54 ..
+-rw-r--r-- 1 root root 1619039 2021-05-26 12:52 someipETS.tgz
+-rw-r--r-- 1 root root     930 2021-05-26 12:51 start_ets.sh

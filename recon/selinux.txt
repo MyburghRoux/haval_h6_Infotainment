@@ -1,0 +1,76 @@
+/system/etc/selinux/:
+mapping
+plat_and_mapping_sepolicy.cil.sha256
+plat_file_contexts
+plat_hwservice_contexts
+plat_mac_permissions.xml
+plat_property_contexts
+plat_seapp_contexts
+plat_sepolicy.cil
+plat_service_contexts
+selinux_denial_metadata
+
+/vendor/etc/selinux/:
+plat_pub_versioned.cil
+plat_sepolicy_vers.txt
+precompiled_sepolicy
+precompiled_sepolicy.plat_and_mapping.sha256
+vendor_file_contexts
+vendor_hwservice_contexts
+vendor_mac_permissions.xml
+vendor_property_contexts
+vendor_seapp_contexts
+vendor_sepolicy.cil
+vndservice_contexts
+===SELINUX POLICY===
+isSystemServer=true domain=system_server
+user=_app seinfo=platform name=com.android.traceur domain=traceur_app type=app_data_file levelFrom=all
+user=system seinfo=platform domain=system_app type=system_app_data_file
+user=bluetooth seinfo=platform domain=bluetooth type=bluetooth_data_file
+user=nfc seinfo=platform domain=nfc type=nfc_data_file
+user=secure_element seinfo=platform domain=secure_element levelFrom=all
+user=radio seinfo=platform domain=radio type=radio_data_file
+user=shared_relro domain=shared_relro
+user=shell seinfo=platform domain=shell name=com.android.shell type=shell_data_file
+user=webview_zygote seinfo=webview_zygote domain=webview_zygote
+user=_isolated domain=isolated_app levelFrom=all
+user=_app seinfo=media domain=mediaprovider name=android.process.media type=app_data_file levelFrom=user
+user=_app seinfo=platform domain=platform_app type=app_data_file levelFrom=user
+user=_app isV2App=true isEphemeralApp=true domain=ephemeral_app type=app_data_file levelFrom=all
+user=_app isPrivApp=true domain=priv_app type=app_data_file levelFrom=user
+user=_app minTargetSdkVersion=28 domain=untrusted_app type=app_data_file levelFrom=all
+user=_app minTargetSdkVersion=26 domain=untrusted_app_27 type=app_data_file levelFrom=user
+user=_app domain=untrusted_app_25 type=app_data_file levelFrom=user
+user=system seinfo=platform name=com.android.car domain=carservice_app type=system_app_data_file
+user=system seinfo=platform name=com.aptiv.car domain=aptivcarservice_app type=system_app_data_file
+===SE POLICY===
+/(odm|vendor/odm)(/.*)?		u:object_r:vendor_file:s0
+/(odm|vendor/odm)/bin/sh		u:object_r:vendor_shell_exec:s0
+/(odm|vendor/odm)/app(/.*)?		u:object_r:vendor_app_file:s0
+/(odm|vendor/odm)/etc(/.*)?		u:object_r:vendor_configs_file:s0
+/(odm|vendor/odm)/lib(64)?/hw		u:object_r:vendor_hal_file:s0
+/(vendor|system/vendor)(/.*)?		u:object_r:vendor_file:s0
+/(vendor|system/vendor)/bin/sh		u:object_r:vendor_shell_exec:s0
+/(product|system/product)(/.*)?		u:object_r:system_file:s0
+/(odm|vendor/odm)/overlay(/.*)?		u:object_r:vendor_overlay_file:s0
+/(odm|vendor/odm)/priv-app(/.*)?		u:object_r:vendor_app_file:s0
+/(odm|vendor/odm)/framework(/.*)?		u:object_r:vendor_framework_file:s0
+/(vendor|system/vendor)/etc(/.*)?		u:object_r:vendor_configs_file:s0
+/(vendor|system/vendor)/app(/.*)?		u:object_r:vendor_app_file:s0
+/(vendor|system/vendor)/bin/toolbox		u:object_r:vendor_toolbox_exec:s0
+/(vendor|system/vendor)/lib(64)?/hw		u:object_r:vendor_hal_file:s0
+/(vendor|system/vendor)/manifest.xml		u:object_r:vendor_configs_file:s0
+/(odm|vendor/odm)/lib(64)?/egl(/.*)?		u:object_r:same_process_hal_file:s0
+/(vendor|system/vendor)/overlay(/.*)?		u:object_r:vendor_overlay_file:s0
+/(vendor|system/vendor)/priv-app(/.*)?		u:object_r:vendor_app_file:s0
+/(vendor|system/vendor)/etc/vintf(/.*)?		u:object_r:vendor_configs_file:s0
+/(vendor|system/vendor)/framework(/.*)?		u:object_r:vendor_framework_file:s0
+/(odm|vendor/odm)/lib(64)?/vndk-sp(/.*)?		u:object_r:vndk_sp_file:s0
+/(vendor|system/vendor)/bin/toybox_vendor		u:object_r:vendor_toolbox_exec:s0
+/(vendor|system/vendor)/lib(64)?/egl(/.*)?		u:object_r:same_process_hal_file:s0
+/(odm|vendor/odm)/etc/selinux/odm_sepolicy.cil		u:object_r:sepolicy_file:s0
+/(vendor|system/vendor)/lib(64)?/vndk-sp(/.*)?		u:object_r:vndk_sp_file:s0
+/(odm|vendor/odm)/etc/selinux/odm_file_contexts		u:object_r:file_contexts_file:s0
+/(odm|vendor/odm)/etc/selinux/odm_seapp_contexts		u:object_r:seapp_contexts_file:s0
+/(vendor|system/vendor)/compatibility_matrix.xml		u:object_r:vendor_configs_file:s0
+/(odm|vendor/odm)/etc/selinux/odm_property_contexts		u:object_r:property_contexts_file:s0

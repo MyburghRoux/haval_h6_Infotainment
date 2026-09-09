@@ -1,0 +1,162 @@
+eth1_4    Link encap:Ethernet  HWaddr 02:47:57:4d:00:99
+          inet addr:172.16.4.99  Bcast:172.16.4.255  Mask:255.255.255.0 
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:458 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:205892 
+
+eth1_3    Link encap:Ethernet  HWaddr 02:47:57:4d:00:99
+          inet addr:172.16.3.99  Bcast:172.16.3.255  Mask:255.255.255.0 
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:463 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:206285 
+
+eth1_2    Link encap:Ethernet  HWaddr 02:47:57:4d:00:99
+          inet addr:172.16.2.99  Bcast:172.16.2.255  Mask:255.255.255.0 
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:16970 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:4513 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:7578969 TX bytes:667990 
+
+eth1_12   Link encap:Ethernet  HWaddr 02:47:57:4d:00:99
+          inet addr:172.16.12.99  Bcast:172.16.12.255  Mask:255.255.255.0 
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:4069 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:461 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:341796 TX bytes:206328 
+
+eth1      Link encap:Ethernet  HWaddr 02:47:57:4d:00:99  Driver ravb
+          inet addr:192.168.60.60  Bcast:192.168.60.255  Mask:255.255.255.0 
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:25221 errors:0 dropped:1 overruns:0 frame:0 
+          TX packets:10860 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:8589633 TX bytes:2625390 
+          Interrupt:56 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0 
+          inet6 addr: ::1/128 Scope: Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4231 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:4231 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:3283288 TX bytes:3283288 
+
+eth0      Link encap:Ethernet  HWaddr 56:4d:51:76:87:81  Driver virtio_net
+          inet addr:192.168.10.10  Bcast:192.168.10.255  Mask:255.255.255.0 
+          inet6 addr: fe80::544d:51ff:fe76:8781/64 Scope: Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:93507 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:71044 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:7579192 TX bytes:8020076 
+
+eth1_13   Link encap:Ethernet  HWaddr 02:47:57:4d:00:99
+          inet addr:172.16.13.99  Bcast:172.16.13.255  Mask:255.255.255.0 
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:114 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:4056 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:11490 TX bytes:884896 
+
+wlan1     Link encap:Ethernet  HWaddr d2:40:ef:b2:77:9b  Driver bcmsdh_sdmmc
+          inet addr:192.168.40.193  Bcast:192.168.40.255  Mask:255.255.255.0 
+          inet6 addr: fe80::d040:efff:feb2:779b/64 Scope: Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:143692 errors:0 dropped:10 overruns:0 frame:0 
+          TX packets:223447 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:71499181 TX bytes:215804970 
+
+bcm0      Link encap:Ethernet  HWaddr d0:40:ef:72:77:9b  Driver bcmsdh_sdmmc
+          inet6 addr: fe80::d240:efff:fe72:779b/64 Scope: Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:152 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:31431 
+
+wlan0     Link encap:Ethernet  HWaddr d2:40:ef:d2:77:9b  Driver bcmsdh_sdmmc
+          inet addr:172.20.10.4  Bcast:172.20.10.15  Mask:255.255.255.240 
+          inet6 addr: fe80::d040:efff:fed2:779b/64 Scope: Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:428548 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:172439 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:507352860 TX bytes:33149184 
+
+eth1_11   Link encap:Ethernet  HWaddr 02:47:57:4d:00:99
+          inet addr:172.16.11.99  Bcast:172.16.11.255  Mask:255.255.255.0 
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:462 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:206382 
+
+===ROUTE===
+172.16.2.0/24 dev eth1_2 proto kernel scope link src 172.16.2.99 
+172.16.3.0/24 dev eth1_3 proto kernel scope link src 172.16.3.99 
+172.16.4.0/24 dev eth1_4 proto kernel scope link src 172.16.4.99 
+172.16.11.0/24 dev eth1_11 proto kernel scope link src 172.16.11.99 
+172.16.12.0/24 dev eth1_12 proto kernel scope link src 172.16.12.99 
+172.16.13.0/24 dev eth1_13 proto kernel scope link src 172.16.13.99 
+172.20.10.0/28 dev wlan0 proto kernel scope link src 172.20.10.4 
+192.168.10.0/24 dev eth0 proto kernel scope link src 192.168.10.10 
+192.168.40.0/24 dev wlan1 proto kernel scope link src 192.168.40.193 
+192.168.60.0/24 dev eth1 proto kernel scope link src 192.168.60.60 
+===LISTEN===
+State       Recv-Q Send-Q Local Address:Port               Peer Address:Port              
+LISTEN      0      5      127.0.0.1:53                 0.0.0.0:*                   users:(("dnsmasq",pid=5427,fd=15))
+LISTEN      0      5      192.168.40.193:53                 0.0.0.0:*                   users:(("dnsmasq",pid=5427,fd=13))
+LISTEN      0      128    0.0.0.0:7000               0.0.0.0:*                   users:(("m.aptiv.carplay",pid=3162,fd=45))
+LISTEN      0      10     0.0.0.0:7001               0.0.0.0:*                   users:(("tmedia.receiver",pid=7445,fd=63))
+LISTEN      0      10     0.0.0.0:7100               0.0.0.0:*                   users:(("tmedia.receiver",pid=7445,fd=114))
+LISTEN      0      10     0.0.0.0:55229              0.0.0.0:*                   users:(("tmedia.receiver",pid=7445,fd=138))
+LISTEN      0      128    0.0.0.0:8008               0.0.0.0:*                   users:(("tmedia.receiver",pid=7445,fd=136))
+LISTEN      0      10     0.0.0.0:8009               0.0.0.0:*                   users:(("tmedia.receiver",pid=7445,fd=131))
+LISTEN      0      128    127.0.0.1:31113              0.0.0.0:*                   users:(("tmedia.receiver",pid=7445,fd=113))
+LISTEN      0      50     0.0.0.0:3500               0.0.0.0:*                   users:(("tmedia.receiver",pid=7445,fd=128))
+LISTEN      0      128    127.0.0.1:5037               0.0.0.0:*                   users:(("adbd",pid=8912,fd=5))
+LISTEN      0      128    0.0.0.0:3600               0.0.0.0:*                   users:(("tmedia.receiver",pid=7445,fd=140))
+LISTEN      0      10     0.0.0.0:6000               0.0.0.0:*                   users:(("tmedia.receiver",pid=7445,fd=127))
+LISTEN      0      50     0.0.0.0:2001               0.0.0.0:*                   users:(("tmedia.receiver",pid=7445,fd=69))
+LISTEN      0      4            *:5555                     *:*                   users:(("adbd",pid=8912,fd=10))
+LISTEN      0      5        [::1]:53                    [::]:*                   users:(("dnsmasq",pid=5427,fd=9))
+LISTEN      0      5      [fe80::d040:efff:feb2:779b]%wlan1:53                    [::]:*                   users:(("dnsmasq",pid=5427,fd=7))
+LISTEN      0      50      [::ffff:127.0.0.1]:3510                     *:*                   users:(("tmedia.receiver",pid=7445,fd=107))
+LISTEN      0      128       [::]:7000                  [::]:*                   users:(("m.aptiv.carplay",pid=3162,fd=46))
+===ARP===
+IP address       HW type     Flags       HW address            Mask     Device
+192.168.10.1     0x1         0x2         a0:b0:c0:d0:e0:f0     *        eth0
+172.16.3.97      0x1         0x6         02:47:57:4d:00:97     *        eth1_3
+192.168.40.14    0x1         0x2         76:56:3c:13:3f:26     *        wlan1
+172.20.10.1      0x1         0x2         c6:16:8f:39:93:64     *        wlan0
+172.16.2.176     0x1         0x6         02:47:57:4d:00:b0     *        eth1_2
+172.16.11.97     0x1         0x6         02:47:57:4d:00:97     *        eth1_11
+172.16.2.83      0x1         0x6         02:47:57:4d:00:83     *        eth1_2
+172.16.4.97      0x1         0x6         02:47:57:4d:00:97     *        eth1_4
+172.16.2.10      0x1         0x6         02:47:57:4d:00:10     *        eth1_2
+172.16.2.30      0x1         0x6         02:47:57:4d:00:30     *        eth1_2
+172.16.11.1      0x1         0x0         00:00:00:00:00:00     *        eth1_11
+192.168.60.1     0x1         0x0         00:00:00:00:00:00     *        eth1
+172.16.4.1       0x1         0x0         00:00:00:00:00:00     *        eth1_4
+172.16.2.97      0x1         0x6         02:47:57:4d:00:97     *        eth1_2
+172.16.4.91      0x1         0x6         02:47:57:4d:00:91     *        eth1_4
+172.16.12.97     0x1         0x6         02:47:57:4d:00:97     *        eth1_12
+172.16.2.91      0x1         0x6         02:47:57:4d:00:91     *        eth1_2
+172.16.2.81      0x1         0x6         02:47:57:4d:00:81     *        eth1_2
+172.16.12.1      0x1         0x0         00:00:00:00:00:00     *        eth1_12
+192.168.40.121   0x1         0x2         5e:c2:be:bc:42:c9     *        wlan1
+172.16.12.91     0x1         0x6         02:47:57:4d:00:91     *        eth1_12
+172.16.2.178     0x1         0x6         02:47:57:4d:00:b2     *        eth1_2
+172.16.13.97     0x1         0x6         02:47:57:4d:00:97     *        eth1_13
+172.16.3.91      0x1         0x6         02:47:57:4d:00:91     *        eth1_3
+172.16.2.82      0x1         0x6         02:47:57:4d:00:82     *        eth1_2
+172.16.2.92      0x1         0x6         02:47:57:4d:00:92     *        eth1_2
+172.16.3.1       0x1         0x0         00:00:00:00:00:00     *        eth1_3

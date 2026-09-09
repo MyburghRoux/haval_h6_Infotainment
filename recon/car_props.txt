@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<logConfiguration version="1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <!-- Global logging section:
+        "buffer": output which log buffer
+        "rotateSize":
+        "rotateCount":
+        "level": global logging level(VERBOSE, DEBUG, INFO, WARN, ERROR, ASSERT, SILENT)
+    -->
+    <buffer>main,events,system,crash,kernel</buffer>
+    <rotateSize>40960</rotateSize>
+    <rotateCount>16</rotateCount>
+    <level>INFO</level>
+    <filename>outputsyslog</filename>
+    <!-- Module logging setting:
+        "tag": log tag name
+        "level": logging level(VERBOSE, DEBUG, INFO, WARN, ERROR, ASSERT, SILENT)
+    -->
+    <modules>
+        <module tag="xl4someip" level="ERROR"/>
+        <module tag="Aptiv_gps" level="ASSERT"/>
+        <module tag="GnssLocationProvider" level="WARN"/>
+        <module tag="0" level="VERBOSE"/>
+        <module tag="AptivNaviService" level="INFO"/>
+        <module tag="UILog" level="INFO"/>
+        <module tag="SensorInfoHelper" level="INFO"/>
+        <module tag="SETTING.VEHICLE" level="INFO"/>
+        <module tag="SETTING.HVAC" level="INFO"/>
+        <module tag="SETTING.SYSTEM" level="INFO"/>
+        <module tag="DataCacheManager" level="INFO"/>
+        <module tag="TAHTTP" level="ERROR"/>
+        <module tag="EthernetCustomerDiagnostic" level="INFO"/>
+        <module tag="APMS.S.CP_HSM" level="INFO"/>
+        <module tag="TaesLog" level="ASSERT"/>
+    </modules>
+</logConfiguration>
+===CAR PROPERTIES===
+CarPropertyService: com.android.car.CarPropertyService@2438c40
+PropertyHalService
+    CarPropertyConfig{mPropertyId=286261505, mAccess=1, mAreaType=0, mChangeMode=0, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={}, mType=class java.lang.String}
+    CarPropertyConfig{mPropertyId=354419973, mAccess=3, mAreaType=3, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={117=null}, mType=class java.lang.Boolean}
+    CarPropertyConfig{mPropertyId=354419974, mAccess=3, mAreaType=3, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={117=null}, mType=class java.lang.Boolean}
+    CarPropertyConfig{mPropertyId=354419975, mAccess=3, mAreaType=3, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={117=null}, mType=class java.lang.Boolean}
+    CarPropertyConfig{mPropertyId=354419976, mAccess=3, mAreaType=3, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={117=null}, mType=class java.lang.Boolean}
+    CarPropertyConfig{mPropertyId=354419977, mAccess=3, mAreaType=3, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={117=null}, mType=class java.lang.Boolean}
+    CarPropertyConfig{mPropertyId=354419978, mAccess=3, mAreaType=3, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={117=null}, mType=class java.lang.Boolean}
+    CarPropertyConfig{mPropertyId=354419984, mAccess=3, mAreaType=3, mChangeMode=1, mConfigArray=[306185472, 306185473], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={117=null}, mType=class java.lang.Boolean}
+    CarPropertyConfig{mPropertyId=354419986, mAccess=3, mAreaType=3, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={117=null}, mType=class java.lang.Boolean}
+    CarPropertyConfig{mPropertyId=356517120, mAccess=3, mAreaType=3, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={117=CarAreaConfig{mMinValue=1, mMaxValue=7}}, mType=class java.lang.Integer}
+    CarPropertyConfig{mPropertyId=356517121, mAccess=3, mAreaType=3, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={117=CarAreaConfig{mMinValue=0, mMaxValue=0}}, mType=class java.lang.Integer}
+    CarPropertyConfig{mPropertyId=289472773, mAccess=1, mAreaType=0, mChangeMode=0, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={}, mType=class [Ljava.lang.Integer;}
+    CarPropertyConfig{mPropertyId=289472775, mAccess=1, mAreaType=0, mChangeMode=0, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={}, mType=class [Ljava.lang.Integer;}
+    CarPropertyConfig{mPropertyId=356517131, mAccess=3, mAreaType=3, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={1=CarAreaConfig{mMinValue=0, mMaxValue=0}, 4=CarAreaConfig{mMinValue=0, mMaxValue=0}}, mType=class java.lang.Integer}
+    CarPropertyConfig{mPropertyId=358614274, mAccess=3, mAreaType=3, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={49=CarAreaConfig{mMinValue=16.0, mMaxValue=32.0}, 68=CarAreaConfig{mMinValue=16.0, mMaxValue=32.0}}, mType=class java.lang.Float}
+    CarPropertyConfig{mPropertyId=358614275, mAccess=3, mAreaType=3, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={49=CarAreaConfig{mMinValue=16.0, mMaxValue=32.0}, 68=CarAreaConfig{mMinValue=16.0, mMaxValue=32.0}}, mType=class java.lang.Float}
+    CarPropertyConfig{mPropertyId=291504388, mAccess=1, mAreaType=0, mChangeMode=0, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={}, mType=class java.lang.Float}
+    CarPropertyConfig{mPropertyId=291504390, mAccess=1, mAreaType=0, mChangeMode=0, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={}, mType=class java.lang.Float}
+    CarPropertyConfig{mPropertyId=561002608, mAccess=3, mAreaType=0, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={}, mType=class [B}
+    CarPropertyConfig{mPropertyId=561002609, mAccess=3, mAreaType=0, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={}, mType=class [B}
+    CarPropertyConfig{mPropertyId=560996465, mAccess=3, mAreaType=0, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={16777216=null}, mType=class [B}
+    CarPropertyConfig{mPropertyId=557893697, mAccess=3, mAreaType=0, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={}, mType=class java.lang.Integer}
+    CarPropertyConfig{mPropertyId=561002610, mAccess=3, mAreaType=0, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={}, mType=class [B}
+    CarPropertyConfig{mPropertyId=560996466, mAccess=3, mAreaType=0, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={16777216=null}, mType=class [B}
+    CarPropertyConfig{mPropertyId=557893698, mAccess=3, mAreaType=0, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={}, mType=class java.lang.Integer}
+    CarPropertyConfig{mPropertyId=555796515, mAccess=3, mAreaType=0, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={}, mType=class java.lang.Boolean}
+    CarPropertyConfig{mPropertyId=561002611, mAccess=3, mAreaType=0, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={}, mType=class [B}
+    CarPropertyConfig{mPropertyId=560996467, mAccess=3, mAreaType=0, mChangeMode=1, mConfigArray=[], mConfigString=, mMaxSampleRate=0.0, mMinSampleRate=0.0, mSupportedAreas={16777216=null}, mType=class [B}

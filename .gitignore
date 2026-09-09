@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Third-party APK downloads (large, re-downloadable; Termux APK >100MB exceeds GitHub limit)
+mods/
+
+# Derivative extraction of GwmEngineerMode.apk (unzip the APK in recon/apks/ instead)
+recon/apks/eng/
+
+# Node
+node_modules/
+
+# Shizuku inspection scratch
+shizuku_inspect/

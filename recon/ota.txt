@@ -1,0 +1,43 @@
+total 168
+drwxrwxrwx  5 root   root   u:object_r:vfat:s0             32768 1970-01-01 02:00 .
+drwxrwx--x 40 system system u:object_r:system_data_file:s0  4096 2025-12-10 15:34 ..
+drwxrwxrwx  2 root   root   u:object_r:vfat:s0             32768 2021-09-28 09:46 display
+drwxrwxrwx  4 root   root   u:object_r:vfat:s0             32768 2021-09-28 09:46 fblota
+-rwxrwxrwx  1 root   root   u:object_r:vfat:s0                23 2021-05-08 16:48 ota_tmp.txt
+drwxrwxrwx  4 root   root   u:object_r:vfat:s0             32768 2021-09-28 09:46 rb_work
+===OTA TMP===
+This is a useless file
+
+===OTA dirs===
+/data/ota_package/display/:
+total 64
+drwxrwxrwx 2 root root 32768 2021-09-28 09:46 .
+drwxrwxrwx 5 root root 32768 1970-01-01 02:00 ..
+
+/data/ota_package/fblota/:
+total 128
+drwxrwxrwx 4 root root 32768 2021-09-28 09:46 .
+drwxrwxrwx 5 root root 32768 1970-01-01 02:00 ..
+drwxrwxrwx 2 root root 32768 2021-09-28 09:46 Result
+drwxrwxrwx 2 root root 32768 2021-09-28 09:46 logs
+
+/data/ota_package/rb_work/:
+total 128
+drwxrwxrwx 4 root root 32768 2021-09-28 09:46 .
+drwxrwxrwx 5 root root 32768 1970-01-01 02:00 ..
+drwxrwxrwx 3 root root 32768 2021-09-28 09:46 logs
+drwxrwxrwx 2 root root 32768 2021-09-28 09:46 workdir
+===OTA TRANSFER===
+/data/ota_transfer/:
+total 11
+drwxrwxrwx  3 root   root   1024 1970-01-01 02:00 .
+drwxrwx--x 40 system system 4096 2025-12-10 15:34 ..
+drwxrwxrwx  2 root   root   1024 1980-01-01 00:00 LogForFBL
+-rwxrwxrwx  1 root   root     23 2021-05-08 16:48 ota_tmp.txt
+
+/data/ota_transfer/LogForFBL:
+total 1306
+drwxrwxrwx 2 root root    1024 1980-01-01 00:00 .
+drwxrwxrwx 3 root root    1024 1970-01-01 02:00 ..
+-rwxrwxrwx 1 root root 1325017 1980-01-01 00:00 FBL_REFLASH_LOG.access
+-rwxrwxrwx 1 root root    9480 1980-01-01 00:00 FBL_REFLASH_LOG.error

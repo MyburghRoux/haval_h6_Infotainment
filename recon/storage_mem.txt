@@ -1,0 +1,18 @@
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       3.4G  1.7G  1.7G  50% /
+tmpfs           2.4G  468K  2.4G   1% /dev
+tmpfs           512M     0  512M   0% /mnt
+/dev/block/dm-1 492M  167M  325M  34% /vendor
+/dev/block/vdb   12G  0.9G   11G   9% /data
+/dev/block/vdg   20G   44M   20G   1% /autonavi
+/dev/block/vdf  795M  733M   62M  93% /aptivlog
+/dev/block/vdk   13G   34M   13G   1% /tencent
+/data/media      12G  1.1G   11G  10% /mnt/runtime/default/emulated
+/dev/block/vdd  2.9G  320K  2.9G   1% /data/ota_package
+/dev/block/vdi  127M  1.2M  126M   2% /data/ota_transfer
+===MEM===
+MemTotal:        5210716 kB
+MemFree:          554928 kB
+MemAvailable:    1752492 kB
+Buffers:           59776 kB
+Cached:          1274104 kB
